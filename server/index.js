@@ -19,7 +19,7 @@ app.get("/api/fortune", getFortune);
 
 app.post("/api/names", postName);
 
-app.get("/api/goal", postGoal);
+app.post("/api/goal", postGoal);
 
 app.get("/api/lucky", getLucky);
 
